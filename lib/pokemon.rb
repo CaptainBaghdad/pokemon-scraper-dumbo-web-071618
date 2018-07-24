@@ -26,7 +26,7 @@ class Pokemon
     ans = db.execute(sql,id)
     ans = ans.flatten
     
-    pokey = Pokemon.new(id: ans[0], name: ans[1], type: ans[2], db: db)
+    pokey = Pokemon.new(id: ans[0], name: ans[1], type: ans[2], db: db, hp: ans[3])
     return pokey
    
    
