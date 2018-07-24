@@ -25,7 +25,7 @@ class Pokemon
    sql  = "SELECT id,name,type FROM pokemon WHERE pokemon.id = ?;"
     ans = db.execute(sql,id)
     ans = ans.flatten
-    
+    binding.pry
     pokey = Pokemon.new(id: ans[0], name: ans[1], type: ans[2], db: db, 
     hp: ans[3])
     return pokey
