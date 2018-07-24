@@ -39,7 +39,6 @@ class Pokemon
    poke = db.execute(sql,hp)
    pokey = Pokemon.find(self.id,db)
    pokey.hp = hp
-   binding.pry 
  end
  
  end
