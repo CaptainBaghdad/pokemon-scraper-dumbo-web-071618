@@ -11,6 +11,12 @@ class Pokemon
  end 
  
  
+ def save 
+   sql  = "INSERT INTO pokemons(name,type,db) VALUES(?,?,?);"
+   DB.execute(sql, name, type,db)
+   
+ end
+ 
  
 
 
