@@ -1,1 +1,1 @@
-ALTER pokemon ADD SET DEFAULT 60 WHERE pokemon.hp =nil; 
+ALTER pokemon ADD hp DEFAULT 60; 
