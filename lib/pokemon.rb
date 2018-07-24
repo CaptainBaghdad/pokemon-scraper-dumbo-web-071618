@@ -37,6 +37,7 @@ class Pokemon
    
    sql  =  "UPDATE pokemon SET hp = ? WHERE pokemon.id= id;"
    poke = db.execute(sql,hp)
+   
    pokey = Pokemon.find(self.id,db)
    pokey.hp = hp
  end
