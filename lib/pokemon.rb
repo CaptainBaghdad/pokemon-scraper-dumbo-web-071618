@@ -4,9 +4,9 @@ class Pokemon
  
  def initialize(pokemon)
     @id = pokemon[:id]
-    @name = name 
-    @type = type
-    @db = db
+    @name = pokemon[:name]
+    @type = pokemon[:type]
+    @db = pokemon[:db]
     
  end 
  
