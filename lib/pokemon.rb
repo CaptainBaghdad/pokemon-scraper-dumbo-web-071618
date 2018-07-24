@@ -23,6 +23,7 @@ class Pokemon
     ans.flatten
     
     pokey = Pokemon.new(id: ans[0], name: ans[1], type: ans[2], db: db)
+    binding.pry
     return pokey
    
    
