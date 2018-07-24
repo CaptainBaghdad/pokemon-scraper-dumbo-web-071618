@@ -30,5 +30,7 @@ class Pokemon
  end
 
 
+ def self
+
 
 end 
