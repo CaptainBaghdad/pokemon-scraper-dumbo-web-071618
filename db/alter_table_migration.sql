@@ -1,1 +1,1 @@
-ALTER pokemon ADD hp DEFAULT 60; 
+ALTER TABLE pokemon ADD hp DEFAULT 60; 
