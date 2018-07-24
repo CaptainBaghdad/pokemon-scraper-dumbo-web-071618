@@ -1,0 +1,1 @@
+UPDATE pokemon WHERE pokemon.hp = nil ALTER pokemon.hp SET DEFAULT 60; 
