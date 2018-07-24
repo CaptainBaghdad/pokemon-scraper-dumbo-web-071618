@@ -12,8 +12,6 @@ class Pokemon
     @db = db
     @hp = hp 
     
-    binding.pry
-    
  end 
  
  
